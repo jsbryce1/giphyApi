@@ -1,6 +1,6 @@
 $(document).ready(function(){
       // Initial array of images
-      var images = ["Sailor Moon Crystal", "Fairy Tail", "Yowamushi", "kuroko no basket", "Chihayafuru", "Yona of the Dawn", "Blue Exorcist"];
+      var images = ["cats","dogs","pizza","hugs",];
 
       // displayImages function re-renders the HTML to display the appropriate content
       function displayImages() {
