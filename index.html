@@ -10,29 +10,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-
-<div class="container">
-    <h1 id="input-text">Type stuff here</h1>
-
-    <!-- new buttons will get here -->
-    <div id="new-button"></div>
-
-    <div id="input-box">
-        <form id="image-form">
-            <label for="gif-input">Type somthing new</label>
-            <input type="text" id="gif-input">
-            <br>
-            <!-- button triggers new gifs to be added -->
-            <input id="add-gif" type="submit" value="Submit">
-        </form>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 id="input-text" class="display-4 text-center">Gif paridise</h1>
+        </div>
     </div>
-    <!-- gifs will get to show here-->
-    <div id="dump-gifs"></div>
-</div>
+    <div class="container text-center
+    ">
+
+        <!-- div for new buttons -->
+        <div id="new-button"></div>
+
+        <div id="input-box">
+            <form id="image-form">
+                <label for="gif-input">Type whatever you want here</label>
+                <input type="text" id="gif-input">
+                <br>
+                <!-- button triggers new gifs to be added -->
+                <input id="add-gif" type="submit" value="Send It">
+            </form>
+        </div>
+        <!-- div for new gifs -->
+        <div id="dump-gifs"></div>
+    </div>
 
 
 
