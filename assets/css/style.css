@@ -3,28 +3,39 @@ body {
 }
 
 #input-text {
-     background-color: palegoldenrod;
+background-color: rgb(119, 247, 176);
     border-radius: 10px;
     color: aqua;
-      text-shadow: 2px 2px 2px rgb(5, 78, 62);
+      text-shadow: 2px 2px 2px rgb(27, 37, 168);
+      margin-top: 50px;
 }
 #gif-input{
-  background-color: palegoldenrod;
+background-color: rgb(119, 247, 176);
 border-radius: 10px;
+
 }
 #add-gif{
 border-radius: 10px;
-  background-color: palegoldenrod;
+  background-color: rgb(119, 247, 176);
+  
 }
 #new-button{
     border-radius: 10px;
+     text-shadow: 2px 2px 2px rgb(91, 109, 105);
 }
 
 #dump-gifs{
          border-radius: 10px;
+         
 }
 button{
          border-radius: 10px;
-         background-color: palegoldenrod;
+      background-color: rgb(119, 247, 176);
          margin: 10px;
+               text-shadow: 2px 2px 2px rgb(91, 109, 105);
+               color: rgb(25, 0, 255);
+               border: aqua;
+}
+#reload {
+    
 }

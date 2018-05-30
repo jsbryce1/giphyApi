@@ -89,5 +89,11 @@ $(document).ready(function () {
     // Adding click event listeners to all elements with a class of "image"
     $(document).on("click", ".image", displayImages);
     // displays the initial list of gifs
+    
     renderButtons();
+});
+
+//## ######  refreshes the entire page to start over. ##### ##
+$('#reload').click(function () {
+    location.reload();
 });
