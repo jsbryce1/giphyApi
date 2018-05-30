@@ -18,11 +18,12 @@ $(document).ready(function () {
             // runs through the results and limits it to 10
             for (var i = 0; i < results.length; i++) {
                 var imageDiv = $("<div>");
+                
                 //stores the ratings in the imageDiv varianle after being run through the for loop
                 var rating = results[i].rating;
                 // Make a h2 element with jQuery and add the rating text inside and store it in the variable of p
                 var p = $("<h2>").text("Rating: " + rating);
-
+                
                 var randomImage = $("<img>");
                 randomImage.attr("src", results[i].images.fixed_height_still.url);
                 randomImage.attr("data-still", results[i].images.fixed_height_still.url);
