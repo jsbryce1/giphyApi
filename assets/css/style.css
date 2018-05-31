@@ -1,9 +1,5 @@
 body {
     background: url("../../assets/images/rain.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 #input-text {
