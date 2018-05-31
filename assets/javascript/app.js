@@ -18,12 +18,12 @@ $(document).ready(function () {
             // runs through the results and limits it to 10
             for (var i = 0; i < results.length; i++) {
                 var imageDiv = $("<div>");
-                
+
                 //stores the ratings in the imageDiv varianle after being run through the for loop
                 var rating = results[i].rating;
                 // Make a h2 element with jQuery and add the rating text inside and store it in the variable of p
                 var p = $("<h2>").text("Rating: " + rating);
-                
+
                 var randomImage = $("<img>");
                 randomImage.attr("src", results[i].images.fixed_height_still.url);
                 randomImage.attr("data-still", results[i].images.fixed_height_still.url);
@@ -56,9 +56,9 @@ $(document).ready(function () {
             });
         });
     }
- 
+
     function renderButtons() {
-       // empties the new-button div before adding new ones
+        // empties the new-button div before adding new ones
         $("#new-button").empty();
         //loops through the array of gifs
         for (var i = 0; i < images.length; i++) {
@@ -77,20 +77,27 @@ $(document).ready(function () {
 
     // when the submit input button is clicked, run this function
     $("#add-gif").on("click", function (event) {
+
         event.preventDefault();
         // grabs the user input from the text box
         var image = $("#gif-input").val().trim();
         // pushes the new gif to the images array
         images.push(image);
+        // clears the user input area after being submitted
+        $('#gif-input').val('');
         // Calling renderButtons which handles the processing of our gif array
         renderButtons();
+
+
     });
+
 
     // Adding click event listeners to all elements with a class of "image"
     $(document).on("click", ".image", displayImages);
     // displays the initial list of gifs
-    
+
     renderButtons();
+
 });
 
 //## ######  refreshes the entire page to start over. ##### ##

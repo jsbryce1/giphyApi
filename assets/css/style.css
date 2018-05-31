@@ -1,41 +1,65 @@
 body {
-    background: url("../../assets/images/para.jpg");
+    background: url("../../assets/images/rain.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #input-text {
-background-color: rgb(119, 247, 176);
     border-radius: 10px;
     color: aqua;
-      text-shadow: 2px 2px 2px rgb(27, 37, 168);
-      margin-top: 50px;
+    text-shadow: 2px 2px 2px rgb(0, 183, 255);
+    margin-top: 50px;
+    font-family: 'VT323', monospace;
+    letter-spacing: 0.5725em;
 }
-#gif-input{
-background-color: rgb(119, 247, 176);
-border-radius: 10px;
 
-}
-#add-gif{
-border-radius: 10px;
-  background-color: rgb(119, 247, 176);
-  
-}
-#new-button{
+#gif-input {
+    background-color: rgb(177, 91, 206);
     border-radius: 10px;
-     text-shadow: 2px 2px 2px rgb(91, 109, 105);
+    color: aqua;
+    letter-spacing: 0.0725em;
+    box-shadow: 0 10px 20px 0 rgb(255, 0, 234), 0 16px 50px 0 rgba(245, 2, 192, 0.877);
 }
 
-#dump-gifs{
-         border-radius: 10px;
-         
+#add-gif {
+    border-radius: 10px;
+    ;
+    background-color: rgb(119, 247, 176);
+    font-family: 'VT323', monospace;
+    letter-spacing: 0.0725em;
+    box-shadow: 0 10px 20px 0 rgba(9, 240, 86, 0.2), 0 16px 50px 0 rgba(2, 245, 22, 0.877);
+    font-size: x-large;
 }
-button{
-         border-radius: 10px;
-      background-color: rgb(119, 247, 176);
-         margin: 10px;
-               text-shadow: 2px 2px 2px rgb(91, 109, 105);
-               color: rgb(25, 0, 255);
-               border: aqua;
+
+#new-button {
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px rgb(91, 109, 105);
+    font-family: 'VT323', monospace;
+    letter-spacing: 0.0725em;
 }
+
+#dump-gifs {
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: rgb(119, 247, 176);
+    margin: 10px;
+    text-shadow: 2px 2px 2px rgb(91, 109, 105);
+    color: rgb(255, 0, 242);
+    font-weight: 600;
+    font-size: x-large;
+    border: aqua;
+    font-family: 'VT323', monospace;
+    padding: 20px;
+    border-radius: 20px;
+    letter-spacing: 0.0725em;
+    box-shadow: 0 10px 20px 0 rgba(9, 240, 86, 0.2), 0 16px 50px 0 rgba(2, 245, 22, 0.877);
+}
+
 #reload {
-    
+    letter-spacing: 0.0725em;
 }
